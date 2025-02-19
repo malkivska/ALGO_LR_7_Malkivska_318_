@@ -82,8 +82,8 @@ void task1() {
 void getSquareMatrix(int matrix[MAX_SIZE][MAX_SIZE], int &size) {
     // Користувач вводить розмірність квадратної матриці
     
-        cout << "Enter size of square matrix (2-20): ";
-        cin >> size;
+    cout << "Enter size of square matrix (2-20): ";
+    cin >> size;
        
     // Введення елементів матриці з перевіркою на діапазон значень
     cout << "Enter matrix elements (each from 0 to 100):" << endl;
