@@ -81,14 +81,10 @@ void task1() {
 // Функція введення квадратної матриці для завдання 2
 void getSquareMatrix(int matrix[MAX_SIZE][MAX_SIZE], int &size) {
     // Користувач вводить розмірність квадратної матриці
-    do {
+    
         cout << "Enter size of square matrix (2-20): ";
         cin >> size;
-        if (size < 2 || size > MAX_SIZE) {
-            cout << "Size must be between 2 and 20. Try again." << endl;
-        }
-    } while (size < 2 || size > MAX_SIZE);
-    
+       
     // Введення елементів матриці з перевіркою на діапазон значень
     cout << "Enter matrix elements (each from 0 to 100):" << endl;
     for (int i = 0; i < size; i++) {
